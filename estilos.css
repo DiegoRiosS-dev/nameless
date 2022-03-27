@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: initial;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif; 
+}
+/* cores para usar */
+.cinza {
+    color: #616060e7;
+}
+
+/* */
+.menu-ini {
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #140708fa;
+    box-shadow: 3px 3px 3px #0ce1e9ef;
+}
+.menu {
+    margin: 0 auto;
+    width: 960px;
+    padding: 25px 0;
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+.menu-logo a {
+    line-height: 1.2em;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #0ce1e9ef;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-nav ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+.menu-nav li a {
+    color: #0ce1e9ef;
+    margin: 0 5px;
+    padding: 8px 9px;
+    border-radius: 15px;
+    background-color: #000000;
+    line-height: 2.6em;
+}
+.menu-nav li a:hover {
+    color: #f86008;
+    background-color: #fff;
+    transition: 300ms;
+}
+
+
+.introducao {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px 45px;
+    border-bottom: 3px solid #180a0bfa;
+}
+
+
+.game {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    line-height: 1.4; 
+    border-bottom: 2px solid #0000005d; 
+}
+/* configuraçoes para o subtitulo*/
+
+.intro-warframe h2 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    background-color: #e06f2dd8;
+    border-radius: 5px;
+}
+.intro-guildwars2 h2 {
+    padding: 0 10px;
+    margin-bottom: 20px;
+    color: white;
+    background: #0d0916;
+    border-radius: 5px;
+}
+/*  - --- ---    */
+.game-divisao {
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-divisao div {
+    max-width: 480px;
+}
+.game-divisao p {
+    margin-bottom: 10px;
+}
+.imagem-game img {
+   margin: 0 10px;
+   width: calc(100% - 22px );
+   border: 1px solid #365504;
+   box-shadow: 1px 1px 3px #001213ef;
+}
+.imagem-game iframe {
+    width: calc(100% - 20px );
+    margin-left: 10px;
+}
+.game-requisitos span {
+    font-weight: bold;
+
+}
+
+
+.mini-galeria {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mini-galeria div {
+    max-width: 280px;
+    max-height: 160px;
+    margin: 0 5px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 3px #5900ff;
+}
+.mini-galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
